@@ -1,0 +1,57 @@
+.navbar {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 90px 10px;
+    margin-top: 20px
+}
+
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px -40px;
+    min-width:100px ;
+}
+
+.navbar-logo h1{
+    color: white;
+
+}
+
+.navbar-logo img{
+    display: flex;
+    padding: 10px 30px;
+    width: 110px;
+}
+
+.profile-list{
+    display: flex;
+    padding: 20px 100px;
+    list-style:none;
+    gap:30px;
+    color:#49557e;
+    font-size: 18px;
+
+}
+
+.project, .certificates, .resume {
+    color: white;
+}
+
+
+
+.search-bar input{
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.search-bar ::placeholder{
+    padding: 0px;    
+}
