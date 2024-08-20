@@ -8,20 +8,28 @@ const Profile = () => {
         <div className="profile-box">
             {/* <img src={assets.plus} alt="" /> */}
             <div className="profile-info">
+                <img className="headshot" src={assets.headshot} alt="" />
                 <h1>Syed Saleh Mohammad Sajid</h1>
+                <h4>Student, Computer Science<br/>BRAC University</h4>
                 <p>Phone: +8801775289400</p>
+                <p>Email: salehsajid86@gmail.com</p>
                     <div className='contact'>
+                        <a href="https://github.com/sezid">
                         <img src={assets.github} alt="" />
-                        
-                        <a href="mailto:your-email@example.com?subject=Hello&body=Hi%20there,%20I%20wanted%20to%20reach%20out%20to%20you.">
-                            <img src={assets.email} alt="" />
                         </a>
-                        <img src={assets.linkedin} alt="" /> {/*plan to add icons to make it dynamic*/}
+                        <a href="https://www.facebook.com/itssezid">
+                        <img src={assets.facebook} alt="" />
+                        </a>
+                        {/*add any other links here*/}
+                        <a href="https://www.linkedin.com/in/sezid/">
+                        <img src={assets.linkedin} alt="" /> 
+                        </a>
                     </div>
                     <div className="location">
                         <img src={assets.location} alt="" />
                         <p>Dhaka, Bangladesh</p>
                     </div>
+                    <p className='note'>Click the icons to know more</p>
             </div>
             <div className="profile-info-sum">
                 <h2>Summary</h2>

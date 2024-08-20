@@ -5,6 +5,10 @@ import location from './location.png'
 import linkedin from './linkedin.png'
 import email from './email.png'
 import web from './web.png'
+import headshot from './headshot.png'
+import facebook from './facebook.png'
+import project_1 from './project_1.png'
+
 
 
 export const assets ={
@@ -14,7 +18,10 @@ export const assets ={
   location,
   phone,
   linkedin,
-  web
+  web,
+  headshot,
+  facebook,
+  project_1
 }
 
 

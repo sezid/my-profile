@@ -1,22 +1,27 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Projects.css'
 import { assets } from '../../assets/images'
 
 const Projects = () => {
+
   return (
     <div className="projects">
         <h1>Projects</h1>
         <div className="project-list">
             <div className="project-1">
-                <img src={assets.plus} alt="" />
+                <img src={assets.project_1} alt="" />
                 <h2>Khidaaa</h2>
                 <p>A food delivery website just like any</p>
                 <div className="source">
                     
-                        <img href="https://github.com/sezid/khidaaa" src={assets.github} alt="" />
+                <a href="https://github.com/sezid/khidaaa" target="_blank" rel="noopener noreferrer">
+                    <img src={assets.github} alt="GitHub" />
+                </a>
                        
                     
-                        <img href="https://khidaaa.netlify.app" src={assets.web} alt="" />
+                <a href="https://khidaaa.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <img src={assets.web} alt="Web" />
+                </a>
                     
                 </div>
             </div>
@@ -26,10 +31,14 @@ const Projects = () => {
                 <p>A ride sharing app just like any</p>
                 <div className="source">
                     
-                        <img  src={assets.github} alt="" />
-                    
-                    
-                        <img  src={assets.web} alt="" />
+                    <a href="https://github.com/sezid/khidaaa" target="_blank" rel="noopener noreferrer">
+                        <img src={assets.github} alt="GitHub" />
+                    </a>
+
+
+                    <a href="https://khidaaa.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src={assets.web} alt="Web" />
+                    </a>
                     
                 </div>
             </div>
@@ -39,10 +48,14 @@ const Projects = () => {
                 <p>Dummy</p>
                 <div className="source">
                     
-                        <img src={assets.github} alt="" />
-                    
-                    
-                        <img  src={assets.web} alt="" />
+                    <a href="https://github.com/sezid/khidaaa" target="_blank" rel="noopener noreferrer">
+                        <img src={assets.github} alt="GitHub" />
+                    </a>
+
+
+                    <a href="https://khidaaa.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src={assets.web} alt="Web" />
+                    </a>
                     
                 </div>
                 

@@ -49,3 +49,15 @@ h1, h2 {
       opacity: 1;
   }
 }
+
+@keyframes hoverClick {
+  0% {
+    transform: scale(1) rotate(0deg);
+}
+50% {
+    transform: scale(1.1) rotate(10deg);
+}
+100% {
+    transform: scale(1) rotate(0deg);
+}
+}
