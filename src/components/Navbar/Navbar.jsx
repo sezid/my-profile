@@ -2,6 +2,12 @@ import React from 'react'
 import './Navbar.css'
 
 function Navbar() {
+
+  const viewCV = () => {
+    window.open('/cv.pdf', '_blank');
+  };
+
+
   return (
     <div className='navbar'>
 
@@ -18,7 +24,7 @@ function Navbar() {
         <div className="profile-list">
             <li className='project'>Projects</li>
             <li className='certificates'>Certificates</li>
-            <li className='resume'>Resume</li>
+            <li onClick={viewCV} className='resume'>Resume</li>
         </div>
 
 
