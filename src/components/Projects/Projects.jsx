@@ -25,7 +25,7 @@ const Projects = () => {
                     
                 </div>
             </div>
-            <div className="project-2">
+            {/* <div className="project-2">
                 <img src={assets.plus} alt="" />
                 <h2>MamaJaben</h2>
                 <p>A ride sharing app just like any</p>
@@ -59,7 +59,7 @@ const Projects = () => {
                     
                 </div>
                 
-            </div>
+            </div> */}
         </div>
     </div>
   )
