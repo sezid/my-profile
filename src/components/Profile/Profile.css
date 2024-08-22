@@ -17,8 +17,8 @@
     background-color: white;
     padding: 20px; 
     border-radius: 20px;
-    width: 50%; 
-    max-width: 1000px; 
+    width: 60%; 
+    max-width: 10000px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     animation: fadeIn 1s ease-in forwards;
 }
@@ -63,8 +63,8 @@
 }
 
 .location img {
-    height: 17px;
-    width: 17px;
+    height: 16px; 
+    width: 16px;
     margin-top:3px;
 }
 

@@ -1,17 +1,17 @@
 import React from 'react'
-import './Projects.css'
+import './Certificate.css'
 import { assets } from '../../assets/images'
 import { Element } from 'react-scroll'
 
-const Projects = () => {
+const Certificate = () => {
 
   return (
-    <Element name="p">
+    <Element name="c">
 
-    <div className="projects">
-        <h1>Projects</h1>
-        <div className="project-list">
-            <div className="project-1">
+    <div className="certificates">
+        <h1>Certificates</h1>
+        <div className="certificate-list">
+            <div className="certificate-1">
                 <img src={assets.project_1} alt="" />
                 <h2>Khidaaa</h2>
                 <p>A food delivery website just like any</p>
@@ -28,7 +28,7 @@ const Projects = () => {
                     
                 </div>
             </div>
-            {/* <div className="project-2">
+            {/* <div className="certificate-2">
                 <img src={assets.plus} alt="" />
                 <h2>MamaJaben</h2>
                 <p>A ride sharing app just like any</p>
@@ -45,7 +45,7 @@ const Projects = () => {
                     
                 </div>
             </div>
-            <div className="project-2">
+            <div className="certificate-2">
                 <img src={assets.plus} alt="" />
                 <h2>Project 3</h2>
                 <p>Dummy</p>
@@ -69,4 +69,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Certificate

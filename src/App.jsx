@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Projects from './components/Projects/Projects'
 import Profile from './components/Profile/Profile'
+import Certificate from './components/Certificates/Certificate'
 
 function App() {
 
@@ -10,8 +11,8 @@ function App() {
     <>
     <Navbar />
     <Profile/>
-    <Projects />
-    
+    <Projects/>
+    <Certificate/>
     </>
   )
 }
