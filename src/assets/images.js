@@ -8,6 +8,9 @@ import web from './web.png'
 import headshot from './headshot.png'
 import facebook from './facebook.png'
 import project_1 from './project_1.png'
+import cert_1 from './cert-1.png'
+import cert from './certificate.png'
+import cert_2 from './cert-2.png'
 
 
 
@@ -21,7 +24,10 @@ export const assets ={
   web,
   headshot,
   facebook,
-  project_1
+  project_1,
+  cert_1,
+  cert,
+  cert_2
 }
 
 
