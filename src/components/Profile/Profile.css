@@ -12,7 +12,7 @@
 
 
 .profile-box {
-    margin: 70px auto; 
+    margin: 30px auto; 
     display: flex;
     background-color: white;
     padding: 20px; 
@@ -52,6 +52,16 @@
     margin-left: 65px;
     border-left: 2px solid rgb(216, 215, 215);
     padding-left: 30px;
+    
+}
+
+.profile-info-sum h2 {
+    font-size: 30px;
+    
+}
+
+.profile-info-sum p {
+    font-size: 17px;
     
 }
 
