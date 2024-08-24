@@ -153,11 +153,80 @@
     }
 
     .profile-info-sum p{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .profile-info-sum h2{
         font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px 0px 20px; /* Adjust padding for smaller screen */
+    }
+
+    .profile-box {
+        margin: 20px auto; 
+        display: flex;
+        background-color: white;
+        padding: 15px; /* Adjust padding for smaller screen */
+        border-radius: 15px; /* Slightly smaller border radius */
+        width: 100%; /* Ensure the box takes up the full width */
+        max-width: 90%; /* Limit the maximum width to 90% of the screen */
+        height: auto; /* Allow height to adjust automatically */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+
+    .headshot {
+        width: 50%; /* Adjust headshot size for smaller screen */
+    }
+
+    .profile-info h1 {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .profile-info h4 {
+        font-size: 8px; /* Adjust font size */
+    }
+
+    .profile-info p {
+        font-size: 8px; /* Adjust font size */
+    }
+
+    .contact img {
+        width: 8px;
+        height: 8px;
+    }
+
+    .location img {
+        width: 8px;
+        height: 8px;
+    }
+
+    .location p {
+        padding-top: 1px;
+        font-size: 8px;
+    }
+
+    .note {
+        font-size: 8px;
+    }
+
+    .profile-info-sum {
+        margin-left: 5px;
+        border-left: 1px solid rgb(216, 215, 215);
+    }
+
+    .profile-info-sum p {
+        font-size: 8px;
+    }
+
+    .profile-info-sum h2 {
+        font-size: 14px;
     }
 }
 
