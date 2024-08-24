@@ -64,3 +64,25 @@
 .search-bar ::placeholder{
     padding: 0px;    
 }
+
+@media (max-width:1050px) {
+    .navbar{
+        width: 170%;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .navbar-logo img{
+        width: 100px;
+    }
+    .navbar-logo h1{
+        font-size: 16px;
+    }
+
+    .profile-list{
+        font-size: 12px;
+        padding-right: 15px;
+    }
+}
