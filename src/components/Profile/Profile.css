@@ -83,4 +83,81 @@
     font-size: 13px;
 }
 
+@media (max-width:1050px) {
+    .profile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 50px 0px 50px;
+    }
+
+    .profile-box{
+    margin: 30px auto; 
+    display: flex;
+    background-color: white;
+    padding: 20px; 
+    border-radius: 20px;
+    width: 193%; 
+    height: 500px;
+    max-width: 10000px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .headshot{
+        width: 40%;
+    }
+
+    .profile-info{
+        display: flex;
+        flex-direction: column;
+        padding-right: 1px;
+        gap: 5px;
+    }
+
+    .profile-info h1{
+        font-size: 17px;
+        padding-right: 90px;
+    }
+
+    .profile-info h4{
+        font-size: 10px;
+    }
+
+    .profile-info p{
+        font-size: 9px;
+    }
+
+    .contact img{
+        width:10px;
+        height: 10px;
+    }
+
+    .location img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .location p{
+        padding-top: 2px;
+        font-size: 9px;
+    }
+
+    .note{
+        font-size: 9px;
+    }
+
+    .profile-info-sum{
+        margin-left: 1px;
+        border-left: 2px solid rgb(216, 215, 215);
+
+    }
+
+    .profile-info-sum p{
+        font-size: 12px;
+    }
+
+    .profile-info-sum h2{
+        font-size: 16px;
+    }
+}
 
