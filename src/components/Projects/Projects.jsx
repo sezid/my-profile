@@ -28,23 +28,24 @@ const Projects = () => {
                     
                 </div>
             </div>
-            {/* <div className="project-2">
-                <img src={assets.plus} alt="" />
-                <h2>MamaJaben</h2>
-                <p>A ride sharing app just like any</p>
+             <div className="project-2">
+                <img src={assets.project_2} alt="" />
+                <h2>Dapper (Incomplete)</h2>
+                <p>A clothing ecommerce store like any</p>
                 <div className="source">
                     
-                    <a href="https://github.com/sezid/khidaaa" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/sezid/e-commerce" target="_blank" rel="noopener noreferrer">
                         <img src={assets.github} alt="GitHub" />
                     </a>
 
 
-                    <a href="https://khidaaa.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="https://khidaaa.netlify.app/" target="_blank" rel="noopener noreferrer">
                         <img src={assets.web} alt="Web" />
-                    </a>
+                    </a> */}
                     
                 </div>
             </div>
+            {/*
             <div className="project-2">
                 <img src={assets.plus} alt="" />
                 <h2>Project 3</h2>

@@ -50,11 +50,13 @@
 }
 
 
-.project-1 img, .project-2 img, .project-3 img{
+.project-1 img,.project-2 img, .project-3 img{
     width: 100%;
     border: none;
     object-fit: cover;
 }
+
+
 
 .source {
     margin-top: 10px;

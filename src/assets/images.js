@@ -11,6 +11,8 @@ import project_1 from './project_1.png'
 import cert_1 from './cert-1.png'
 import cert from './certificate.png'
 import cert_2 from './cert-2.png'
+import project_2 from './project_2.png'
+
 
 
 
@@ -27,7 +29,8 @@ export const assets ={
   project_1,
   cert_1,
   cert,
-  cert_2
+  cert_2,
+  project_2
 }
 
 
