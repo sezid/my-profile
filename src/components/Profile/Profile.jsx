@@ -10,7 +10,7 @@ const Profile = () => {
             <div className="profile-info">
                 <img className="headshot" src={assets.headshot} alt="" />
                 <h1>Syed Saleh Mohammad Sajid</h1>
-                <h4>Student, Computer Science<br/>BRAC University</h4>
+                <h4>BSc in Computer Science<br/>BRAC University</h4>
                 <p>Phone: +8801775289400</p>
                 <p>Email: salehsajid86@gmail.com</p>
                     <div className='contact'>
@@ -33,7 +33,7 @@ const Profile = () => {
             </div>
             <div className="profile-info-sum">
                 <h2>Summary</h2>
-                <p>As a Computer Science student, I'm deeply passionate about Data Science and Artificial Intelligence (AI). I'm excited about using data to solve real-world problems and make a positive impact. My strong technical skills in programming and algorithms, combined with my enthusiasm for innovation, drive my interest in these fields.<br/><br/>I thrive in dynamic environments and enjoy collaborating with diverse teams to tackle challenges. Adaptability and flexibility are key to my approach, allowing me to quickly learn and adapt to new technologies and methodologies.<br/><br/>My goal is to contribute to advancements in AI and Data Science that benefit society. I'm committed to delivering high-quality work with integrity and attention to detail, and I'm eager to continue growing and making meaningful contributions in these exciting fields.</p>
+                <p>I'm deeply passionate about Data Science and Artificial Intelligence (AI). I'm excited about using data to solve real-world problems and make a positive impact. My strong technical skills in programming and algorithms, combined with my enthusiasm for innovation, drive my interest in these fields.<br/><br/>I thrive in dynamic environments and enjoy collaborating with diverse teams to tackle challenges. Adaptability and flexibility are key to my approach, allowing me to quickly learn and adapt to new technologies and methodologies.<br/><br/>My goal is to contribute to advancements in AI and Data Science that benefit society. I'm committed to delivering high-quality work with integrity and attention to detail, and I'm eager to continue growing and making meaningful contributions in these exciting fields.</p>
             </div>
             
         </div>
