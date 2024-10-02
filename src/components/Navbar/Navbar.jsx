@@ -27,7 +27,7 @@ function Navbar() {
             <li className='certf'><Link to="c" smooth={true} duration={500}>Certificates</Link></li>
             <li onClick={viewCV} className='resume'>Resume</li>
         </div>
-
+        
 
     </div>
   )

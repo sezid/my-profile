@@ -10,7 +10,8 @@ const Profile = () => {
             <div className="profile-info">
                 <img className="headshot" src={assets.headshot} alt="" />
                 <h1>Syed Saleh Mohammad Sajid</h1>
-                <h4>BSc in Computer Science<br/>BRAC University</h4>
+                <h3>BSc in Computer Science<br/>BRAC University</h3>
+                <h4>CGPA: 3.51</h4>
                 <p>Phone: +8801775289400</p>
                 <p>Email: salehsajid86@gmail.com</p>
                     <div className='contact'>
