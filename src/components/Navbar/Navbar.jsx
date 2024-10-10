@@ -14,7 +14,7 @@ function Navbar() {
 
         <div className='navbar-logo'>
         <img src="/programming.svg" alt="" />
-        <h1>My Profile</h1>
+        <h1>Syed Saleh Mohammad Sajid</h1>
         </div>  
 
         {/* <div className='search-bar'>
