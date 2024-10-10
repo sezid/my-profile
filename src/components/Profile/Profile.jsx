@@ -34,8 +34,9 @@ const Profile = () => {
             </div>
             <div className="profile-info-sum">
                 <h2>Summary</h2>
-                <p>As a recent Computer Science graduate, I am deeply passionate about leveraging both data science and AI, as well as software development, to solve real-world problems and make a meaningful impact. My strong technical skills in programming, algorithms, and software engineering, combined with my enthusiasm for innovation, fuel my drive to contribute in these fields. <br/><br/>I thrive in dynamic, fast-paced environments and enjoy collaborating with diverse teams to tackle complex challenges. My adaptability allows me to quickly learn and integrate new technologies and methodologies into my work. Whether it's building software solutions or using data-driven approaches, I am committed to developing high-quality, impactful projects that benefit society. <br/><br/>I am eager to continue growing in these areas and making meaningful contributions that improve lives and advance technology for the greater good.</p>
-            </div>
+              <p>I'm deeply passionate about Data Science and Artificial Intelligence (AI). I'm excited about using data to solve real-world problems and make a positive impact. My strong technical skills in programming and algorithms, combined with my enthusiasm for innovation, drive my interest in these fields.<br/><br/>I thrive in dynamic environments and enjoy collaborating with diverse teams to tackle challenges. Adaptability and flexibility are key to my approach, allowing me to quickly learn and adapt to new technologies and methodologies.<br/><br/>My goal is to contribute to advancements in AI and Data Science that benefit society. I'm committed to delivering high-quality work with integrity and attention to detail, and I'm eager to continue growing and making meaningful contributions in these exciting fields.</p>
+           
+                </div>
             
         </div>
       
