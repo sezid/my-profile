@@ -1,19 +1,21 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import Projects from './components/Projects/Projects'
-import Profile from './components/Profile/Profile'
-import Certificate from './components/Certificates/Certificate'
+import Contact from './components/Certificates/Contact'
+import Project_Page from './components/Projects/Project_Page'
+import { Routes, Route } from 'react-router-dom'
+import Home from './components/Home.jsx'
 
 function App() {
 
   return (
-    <>
-    <Navbar />
-    <Profile/>
-    <Projects/>
-    <Certificate/>
-    </>
+    <div className='bg-[url(assets/background.webp)] bg-cover bg-fixed min-h-screen  animate-fade '>
+    <Navbar/>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path="/project_page" element={<Project_Page/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+    </Routes>
+    </div>  
   )
 }
 
