@@ -16,7 +16,7 @@ function Navbar() {
   
 
   return (
-    <div className='flex items-center justify-evenly gap-10 pt-5 sm:justify-evenly items-center bg-slate-100 pb-5 font-poppins'>
+    <div className='flex items-center justify-evenly gap-[120px] md:gap-10 pt-5 sm:justify-evenly items-center bg-slate-100 pb-5 font-poppins'>
         <div className='flex gap-1'>
           <Link to="/">
           <img className='w-5 md:w-8' src="/programming.svg" alt="" /></Link>

@@ -1,5 +1,4 @@
 import React from 'react'
-import './Certificate.css'
 import { assets } from '../../assets/images'
 
 const Contact = () => {
