@@ -5,10 +5,10 @@ const Contact = () => {
 
 
   return (
-    <div className="flex flex-col items-center mt-40">
-        <div className='flex flex-col bg-white w-1/2 items-center justify-center rounded-[15px] gap-3 p-10'>
-            <img className='w-1/4 rounded-full' src={assets.headshot} alt="" />
-            <div className='flex flex-col items-center text-xl'>
+    <div className="flex flex-col items-center mt-20 md:mt-40">
+        <div className='flex flex-col bg-white w-[300px] md:w-1/2 items-center justify-center rounded-[15px] gap-3 p-10'>
+            <img className='w-[150px] md:w-1/4 rounded-full' src={assets.headshot} alt="" />
+            <div className='flex flex-col items-center md:text-xl text-center'>
                 <h1>Syed Saleh Mohammad Sajid</h1>
                 <h3>BSc in Computer Science, BRAC University</h3>
             </div>
@@ -23,7 +23,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/sezid"><img className='w-[30px]' src={assets.linkedin} alt="" /></a>
             </div>
 
-
+            <p className='text-xs'>Click icons to know more</p>
         </div>
         
         
