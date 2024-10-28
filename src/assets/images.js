@@ -64,6 +64,7 @@ export const news=[
     date:'13/08/2018',
     title:"O Levels Completed"
   },
+
   {
     number:2,
     date:'15/08/2020',
