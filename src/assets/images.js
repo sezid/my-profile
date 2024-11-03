@@ -54,7 +54,7 @@ export const projects = [
     image:project_2,
     summary:"An ecommerce clothing store from built using react and tailwind CSS. The project is still incomplete however, expecting to add some features soon.",
     github:"https://github.com/sezid/e-commerce",
-    link:""
+    link:"https://dappar.netlify.app"
   }  
 ]
 
