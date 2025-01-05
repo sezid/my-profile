@@ -10,7 +10,7 @@ const Contact = () => {
             <img className='w-[150px] md:w-1/4 rounded-full' src={assets.headshot} alt="" />
             <div className='flex flex-col items-center md:text-xl text-center'>
                 <h1>Syed Saleh Mohammad Sajid</h1>
-                <h3>BSc in Computer Science, BRAC University</h3>
+                <h3>Project IT Analyst, LIIA Smart Inc.</h3>
             </div>
             <div className='flex flex-col items-center text-sm'>
                 <h3>salehsajid86@gmail.com</h3>

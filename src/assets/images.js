@@ -84,6 +84,10 @@ export const news=[
     number:5,
     date:'01/10/2024',
     title:"Graduated from BRAC University"
+  },
+  { number:6,
+    date:'05/01/2025',
+    title:'Started working in LIIA Smart Inc.'
   }
 
 ]
