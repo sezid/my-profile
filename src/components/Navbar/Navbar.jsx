@@ -20,7 +20,7 @@ function Navbar() {
         <div className='flex gap-1'>
           <Link to="/">
           <img className='w-5 md:w-8' src="/programming.svg" alt="" /></Link>
-          <h1 className='text-xs md:text-xl'>Syed Saleh Mohammad Sajid</h1>
+          <h1 className='text-xs md:text-xl'>Saleh Sajid</h1>
           
         </div>
     

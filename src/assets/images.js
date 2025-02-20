@@ -16,6 +16,7 @@ import menu_icon from "./menu_icon.webp";
 import dropdown_icon from "./dropdown_icon.webp";
 import background from "./background.webp";
 import arrow from "./right-arrow.webp";
+import project_3 from "./project_3.webp"
 
 export const assets = {
   plus,
@@ -36,6 +37,7 @@ export const assets = {
   dropdown_icon,
   background,
   arrow,
+  project_3
 };
 
 export const projects = [
@@ -51,10 +53,18 @@ export const projects = [
     name: "Dapper",
     image: project_2,
     summary:
-      "An ecommerce clothing store from built using react and tailwind CSS. The project is still incomplete however, expecting to add some features soon.",
+      "An ecommerce clothing store from built using React and Tailwind CSS. The project is still incomplete however, expecting to add some features soon.",
     github: "https://github.com/sezid/e-commerce",
     link: "https://dappar.netlify.app",
   },
+  { name: "LIIA Smart Inc",
+    image: project_3,
+    summary:"LIIA Smart Inc Official website built on React and Tailwind CSS and hosted on a live domain. Features include form integration to recieve queries or responses. More features such as job application submissions to be added soon.",
+    github:"https://github.com/sezid/LIIA-website",
+    link:"https://www.liiasmart.com" 
+
+  }
+  
 ];
 
 export const news = [
