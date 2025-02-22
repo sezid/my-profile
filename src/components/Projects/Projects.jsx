@@ -17,7 +17,7 @@ const Projects = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(handleNextImage, 3000); 
+    const interval = setInterval(handleNextImage, 5000); 
 
     return () => clearInterval(interval); 
   }, [currentIndex]);
