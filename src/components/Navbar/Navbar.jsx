@@ -16,14 +16,17 @@ function Navbar() {
   
 
   return (
-    <div className='flex items-center justify-evenly gap-[120px] md:gap-10 pt-5 sm:justify-evenly items-center bg-slate-100 pb-5 font-poppins'>
+    <div className='flex items-center gap-[120px] md:gap-10 pt-5 items-center bg-slate-100 pb-5 font-poppins'>
+        
+        <div className='flex flex-row w-full justify-between mx-5 md:justify-evenly'>
+        <Link to="/">
         <div className='flex gap-1'>
-          <Link to="/">
-          <img className='w-5 md:w-8' src="/programming.svg" alt="" /></Link>
+          
+          <img className='w-5 md:w-8' src="/programming.svg" alt="" />
           <h1 className='text-xs md:text-xl'>Saleh Sajid</h1>
           
         </div>
-    
+        </Link>
         {/* <div className='search-bar'>
             <input type="text" placeholder='Search' />
         </div> */}
@@ -52,6 +55,7 @@ function Navbar() {
 
           </div>
         </div>
+      </div>  
         
         
     </div>
