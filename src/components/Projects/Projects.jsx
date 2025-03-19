@@ -94,6 +94,7 @@ const Projects = () => {
   return (
     <div className="flex flex-row gap-7 bg-slate-100 py-10 items-center justify-center h-[300px] md:h-[500px]">
       <div className="relative w-[150px] h-[100px] md:w-1/3 md:h-[250px] md:overflow-hidden">
+        {!loaded && <p className="absolute text-center w-full">Loading...</p>} 
         <NavLink to="/project_page">
           <img
             src={projects[currentIndex].image}
